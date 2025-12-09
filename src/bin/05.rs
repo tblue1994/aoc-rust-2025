@@ -1,6 +1,5 @@
 use std::{
     cmp::{max, min},
-    collections::HashSet,
     ops::Range,
 };
 
@@ -24,7 +23,6 @@ pub fn part_one(input: &str) -> Option<u64> {
 
 pub fn part_two(input: &str) -> Option<u64> {
     let (ranges, _) = parse(input);
-    let final_ranges = &ranges;
     let mut final_ranges = ranges;
     let mut change = true;
     while change {
