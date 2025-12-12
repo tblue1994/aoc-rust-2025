@@ -1,6 +1,6 @@
 use std::{
     cmp::{max, min},
-    collections::{HashMap, hash_map},
+    collections::HashMap,
 };
 
 use geo::Contains;
